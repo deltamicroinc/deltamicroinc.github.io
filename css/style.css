@@ -43,7 +43,7 @@ h2,h5 {
 	font-size: 2.25em;
 }
 
-h2,h3,h4,h5 {
+h2,h3,h4 {
 	color: #2C2B2B;
 	margin-bottom: 1em;
 }
@@ -57,7 +57,8 @@ h4 {
 }
 
 h5 {
-	margin-bottom: 0.5em;
+	font-size: 1em;
+	margin-bottom: 0.3em;
 }
 
 img.alignleft {
@@ -451,4 +452,16 @@ ul h4 {
 	background: #FFFFFF;
 	border-radius: 6px;
 	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+}
+
+.Row
+{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column
+{
+    display: table-cell;
 }
